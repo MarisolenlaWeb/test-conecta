@@ -4,6 +4,13 @@ body {
 .font-gray {
 	color: #C2BFC5;
 }
+.font-blue {
+	color: #00a1ee;
+}
+.inline {
+	display: inline-block;
+
+}
 /*-----Header-----*/
 .rounded {
   border-radius: 50px;
@@ -58,8 +65,45 @@ h2 {
 	height: 100px;
 	border-radius: 100%;
 	display: block;
-	margin: auto;
+	margin: 40px auto 40px;
 }
 h3 {
 	font-size: 14px;
+}
+.numbers {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.pd-10 {
+	padding: 5px 10px;
+}
+.btn-center {
+	display: block;
+	margin: 10px auto 10px;
+}
+.btn-blue {
+  color: #fff;
+  background-color: #00a1ee;
+  border-color: #00a1ee;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue.focus,
+.btn-blue:active,
+.btn-blue.active,
+.open > .dropdown-toggle.btn-blue {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-blue:active,
+.btn-blue.active,
+.open > .dropdown-toggle.btn-blue {
+  background-image: none;
+}
+.quote {
+	font-size: 16px;
+}
+.quotemark {
+	font-size: 50px;
 }
