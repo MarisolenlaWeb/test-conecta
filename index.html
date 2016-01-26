@@ -22,32 +22,33 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
+          
           <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
                 <a class="navbar-brand" href="#">LOGO</a>
               </div>
-              <div id="navbar" class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right" role="form">
-                  <div class="form-group">
-                    <div class="icon-addon addon-md">
-                      <input type="search" class="form-control rounded" placeholder="Search">
-                      <label for="search" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
-                    </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <img class="imgheader img-responsive" src="img/default-avatar.png">
+                </li>
+                <li class="">
+                  <button type="button" class="btn btn-header dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danielle<span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <div class="icon-addon addon-md">
+                    <input type="search" class="form-control rounded" placeholder="Search">
+                    <label for="search" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
                   </div>
-                </form>
-                <!--
-                <div>
-                  <i class="glyphicon glyphicon-user"></i>
                 </div>
-                -->
-              </div><!--/.navbar-collapse -->
+              </form>
             </div>
           </nav>
         </div>  
@@ -209,8 +210,8 @@
             <div class="panel-body">
               <div class="form-group"> 
                 <div class="col-sm-6">
-                  <label for="country">Postal Code</label>
-                  <input type="text" class="form-control rounded" id="state" placeholder="Type here">
+                    <label for="country">Postal Code</label>
+                    <input type="text" class="form-control rounded" id="state" placeholder="Type here">
                 </div> 
                 <div class="col-sm-6">
                   <label for="state">Phone Number</label>
@@ -221,7 +222,7 @@
           </div>
           <div class="panel panel-default">
             <div class="panel-body">
-              <div class="checkbox">
+              <div class="checkbox mg-checkbox">
                 <label><input type="checkbox" value="">I agree to receive notification emails from Hivve</label>
               </div>
               <button type="button" class="btn btn-blue rounded btn-center">Update Information</button>
@@ -229,7 +230,7 @@
           </div>
         </div>
     <!--External Links-->
-        <div class="col-md-4">
+        <div class="col-md-5">
           <div class="panel panel-default">
             <div class="panel-body">
               <h2 class="font-gray">Your External Links</h2>
@@ -238,8 +239,32 @@
           <div class="panel panel-default">
             <div class="panel-body">
               <form role="form">
-                
+                <div class="form-group">
+                  <label for="fb">Facebook URL:</label>
+                  <input type="url" class="form-control rounded" id="fb" placeholder="Paste your link here">
+                </div>
+                <div class="form-group">
+                  <label for="tw">Twitter URL:</label>
+                  <input type="url" class="form-control rounded" id="tw" placeholder="Paste your link here">
+                </div>
+                <div class="form-group">
+                  <label for="bg">Blogger URL:</label>
+                  <input type="url" class="form-control rounded" id="bg" placeholder="Paste your link here">
+                </div>
+                <div class="form-group">
+                  <label for="gl">Google URL:</label>
+                  <input type="url" class="form-control rounded" id="gl" placeholder="Paste your link here">
+                </div>
+                <div class="form-group">
+                  <label for="lk">Linkedin URL:</label>
+                  <input type="url" class="form-control rounded" id="lk" placeholder="Paste your link here">
+                </div>
+                <div class="form-group">
+                  <label for="web">Website URL:</label>
+                  <input type="url" class="form-control rounded" id="web" placeholder="Paste your link here">
+                </div>
               </form>
+              <button type="button" class="btn btn-blue rounded btn-center mg-btn">Save & Update</button>
             </div>
           </div>
         </div>    

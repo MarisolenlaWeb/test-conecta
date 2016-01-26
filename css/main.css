@@ -52,8 +52,30 @@ body {
     float: left;
     font-weight: normal;
 }
-
+.imgheader {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin: 10px 0 10px 5px;
+}
+.btn-header {
+	margin: 10px 0;
+	background-color: transparent;
+}
 /*-----Profile-----*/
+.panel {
+  margin-bottom: 5px;
+  margin-left: -12px;
+  margin-right: -12px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-body {
+  padding: 20.5px 15px;
+}
 .mg {
 	margin-top: 60px;
 }
@@ -110,3 +132,14 @@ h3 {
 }
 
 /*-----Personal Settings-----*/
+.mg-checkbox {
+	margin-bottom: 16px;
+}
+select {
+	border-radius: 100%;
+}
+
+/*-----External Links------*/
+.mg-btn {
+	margin-top: 135px;
+}
